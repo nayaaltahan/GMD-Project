@@ -13,8 +13,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CharacterScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boundaries.cs" />
       </list>
     </option>
   </component>
@@ -64,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618607886879</updated>
       <workItem from="1618607904568" duration="786000" />
-      <workItem from="1618608761208" duration="9400000" />
+      <workItem from="1618608761208" duration="12374000" />
     </task>
     <servers />
   </component>
@@ -84,10 +85,10 @@
           <line>47</line>
           <properties documentPath="C:\Users\Bruger\Desktop\unity-projects\pink-panther\Assets\Scripts\CharacterScript.cs" initialLine="47">
             <startOffsets>
-              <option value="1205" />
+              <option value="1223" />
             </startOffsets>
             <endOffsets>
-              <option value="1267" />
+              <option value="1285" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="1" />

@@ -6,10 +6,8 @@
     <e p="C:\Users\Bruger\Desktop\unity-projects\pink-panther" t="IncludeRecursive">
       <e p="Assembly-CSharp.csproj" t="IncludeRecursive" />
       <e p="Assets" t="Include">
-        <e p="Nature_pixel_art_assets" t="Include">
-          <e p="pixel_snapping_README.txt" t="Include" />
-        </e>
         <e p="Scripts" t="Include">
+          <e p="Boundaries.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="CharacterScript.cs" t="Include" />
         </e>

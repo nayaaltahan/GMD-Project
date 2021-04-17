@@ -9,12 +9,12 @@ public class CharacterScript : MonoBehaviour
 {
     [SerializeField] public Animator mainCharacterAnimator;
     private SpriteRenderer mySpriteRenderer;
-    private float speed;
+    [SerializeField] public float speed;
 
     private void Start()
     {
         mySpriteRenderer = GetComponent<SpriteRenderer>();
-        speed = (float) (transform.localScale.x * 0.7);
+        speed = (float) (transform.localScale.x * speed);
     }
 
     void Update()
