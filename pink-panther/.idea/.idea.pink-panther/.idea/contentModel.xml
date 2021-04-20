@@ -9,7 +9,19 @@
         <e p="Scripts" t="Include">
           <e p="Boundaries.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
-          <e p="CharacterScript.cs" t="Include" />
+          <e p="JumpScript.cs" t="Include" />
+          <e p="UiManager.cs" t="Include" />
+          <e p="WalkingScript.cs" t="Include" />
+        </e>
+        <e p="UI Materials" t="Include">
+          <e p="Fonts" t="Include">
+            <e p="sundance-font" t="Include">
+              <e p="info.txt" t="Include" />
+              <e p="misc" t="Include">
+                <e p="Terms of Use End User Lisence Agreement.txt" t="Include" />
+              </e>
+            </e>
+          </e>
         </e>
       </e>
       <e p="obj" t="ExcludeRecursive" />

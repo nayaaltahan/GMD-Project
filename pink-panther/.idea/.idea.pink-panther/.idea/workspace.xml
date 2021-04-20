@@ -8,14 +8,19 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/WalkingScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boundaries.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WalkingScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" />
       </list>
     </option>
   </component>
@@ -65,7 +70,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618607886879</updated>
       <workItem from="1618607904568" duration="786000" />
-      <workItem from="1618608761208" duration="12374000" />
+      <workItem from="1618608761208" duration="22495000" />
     </task>
     <servers />
   </component>
@@ -81,17 +86,17 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/CharacterScript.cs</url>
-          <line>47</line>
-          <properties documentPath="C:\Users\Bruger\Desktop\unity-projects\pink-panther\Assets\Scripts\CharacterScript.cs" initialLine="47">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/JumpScript.cs</url>
+          <line>61</line>
+          <properties documentPath="C:\Users\Bruger\Desktop\unity-projects\pink-panther\Assets\Scripts\JumpScript.cs" initialLine="59">
             <startOffsets>
-              <option value="1223" />
+              <option value="1583" />
             </startOffsets>
             <endOffsets>
-              <option value="1285" />
+              <option value="1625" />
             </endOffsets>
           </properties>
-          <option name="timeStamp" value="1" />
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

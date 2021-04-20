@@ -5,7 +5,7 @@ using UnityEngine;
 using UnityEngine.UIElements;
 using Vector2 = System.Numerics.Vector2;
 
-public class CharacterScript : MonoBehaviour
+public class WalkingScript : MonoBehaviour
 {
     [SerializeField] public Animator mainCharacterAnimator;
     private SpriteRenderer mySpriteRenderer;
@@ -20,15 +20,6 @@ public class CharacterScript : MonoBehaviour
     void Update()
     {
         Run();
-        float vertical = Input.GetAxis("Vertical");
-        if (vertical > 0)
-        {
-            mainCharacterAnimator.SetTrigger("Jump");
-        }
-        else
-        {
-            mainCharacterAnimator.ResetTrigger("Jump");
-        }
     }
 
     private void Run()
