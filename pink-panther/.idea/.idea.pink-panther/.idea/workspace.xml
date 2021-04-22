@@ -18,9 +18,10 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boundaries.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WalkingScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraBounds.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
       </list>
     </option>
   </component>
@@ -70,7 +71,7 @@
       <option name="presentableId" value="Default" />
       <updated>1618607886879</updated>
       <workItem from="1618607904568" duration="786000" />
-      <workItem from="1618608761208" duration="22495000" />
+      <workItem from="1618608761208" duration="26646000" />
     </task>
     <servers />
   </component>

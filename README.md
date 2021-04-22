@@ -7,4 +7,5 @@ All the assets (bitmaps and vector graphics) and animations, have been created f
 The game is still under development. But you can play it [here](https://nayaaltahan.github.io/GMD-Project/)
 
 ## Tutorials and References
-1. 
+1. [Camera Follow the player](https://youtu.be/7JjzhhC06xw)
+2. [Set Camera Boundaries](https://youtu.be/05VX2N9_2_4)

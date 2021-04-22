@@ -8,6 +8,7 @@
       <e p="Assets" t="Include">
         <e p="Scripts" t="Include">
           <e p="Boundaries.cs" t="Include" />
+          <e p="CameraBounds.cs" t="Include" />
           <e p="CameraFollow.cs" t="Include" />
           <e p="JumpScript.cs" t="Include" />
           <e p="UiManager.cs" t="Include" />
