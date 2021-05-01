@@ -1,13 +1,55 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="97223cbb-8520-4d2e-9859-b6883a4f442d" name="Default Changelist" comment="" />
+    <list default="true" id="97223cbb-8520-4d2e-9859-b6883a4f442d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Character Animator.controller" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Character Animator.controller.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle Character.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle Character.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Jump Character.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Jump Character.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Jump Pink.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Jump Pink.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Pink Panther.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Pink Panther.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Run Character.anim" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Run Character.anim.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations/Walking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Walking.anim" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boundaries.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boundaries.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WalkingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WalkingScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/526469D5-A48C-43EE-BD9A-F19F8745AFA1/af/437eade7/GameObject.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WalkingScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
@@ -16,16 +58,17 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Boundaries.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WalkingScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraBounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Boundaries.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WalkingScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" />
       </list>
     </option>
   </component>
   <component name="ProjectId" id="1rGgYDrr9H61IbO5Oml8VQ9ly5C" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -71,7 +114,8 @@
       <option name="presentableId" value="Default" />
       <updated>1618607886879</updated>
       <workItem from="1618607904568" duration="786000" />
-      <workItem from="1618608761208" duration="26646000" />
+      <workItem from="1618608761208" duration="37575000" />
+      <workItem from="1619903932126" duration="3041000" />
     </task>
     <servers />
   </component>
@@ -80,6 +124,17 @@
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
@@ -88,16 +143,29 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/JumpScript.cs</url>
-          <line>61</line>
+          <line>59</line>
           <properties documentPath="C:\Users\Bruger\Desktop\unity-projects\pink-panther\Assets\Scripts\JumpScript.cs" initialLine="59">
             <startOffsets>
-              <option value="1583" />
+              <option value="1836" />
             </startOffsets>
             <endOffsets>
-              <option value="1625" />
+              <option value="1878" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/Assets/Scripts/JumpScript.cs</url>
+          <line>38</line>
+          <properties documentPath="C:\Users\Bruger\Desktop\unity-projects\pink-panther\Assets\Scripts\JumpScript.cs" initialLine="38">
+            <startOffsets>
+              <option value="1138" />
+            </startOffsets>
+            <endOffsets>
+              <option value="1202" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

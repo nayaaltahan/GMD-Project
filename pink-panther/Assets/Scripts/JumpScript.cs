@@ -5,9 +5,11 @@ using UnityEngine;
 
 public class JumpScript : MonoBehaviour
 {
-    public float fallMultiplier = 2.5f;
+    [SerializeField] public float fallMultiplier = 2.5f;
 
-    public float lowJumpMultiplier = 2f;
+    [SerializeField] public float lowJumpMultiplier = 2f;
+    
+    [SerializeField] public float jumpVelocity = 15f;
 
     private Rigidbody2D rb;
     
@@ -22,44 +24,40 @@ public class JumpScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Jump"))
+        if (Input.GetButtonDown("Jump") && rb.velocity.y == 0)
         {
             mainCharacterAnimator.SetTrigger("Jump");
-            rb.velocity = new Vector3(0, 10, 0);
+            rb.velocity = new Vector3(0, jumpVelocity, 0);
         }
-        if (rb.velocity.y < 0)
-        {
-            mainCharacterAnimator.ResetTrigger("Jump");
 
-            if (rb.velocity.y > -0.5)
-            {
-                if (!mainCharacterAnimator.GetBool("Fall"))
-                {
-                    mainCharacterAnimator.SetBool("Fall", true);
-                }
-            }
+        // temporary fix for the fall animation, I need to trigger it as soon as th eplayer almost reaches the platform, right before that, and for now all i can come up is this
+        if (rb.velocity.y < -10 && !mainCharacterAnimator.GetBool("Fall"))
+        {
+            mainCharacterAnimator.SetBool("Fall", true);
         }
-        if (rb.velocity.y == 0)
+        
+        if (rb.velocity.y == 0 && mainCharacterAnimator.GetBool("Fall"))
         {
             mainCharacterAnimator.SetBool("Fall", false);
         }
         
-        // if (rb.velocity.y < 0)
-        // {
-        //     rb.velocity += Vector2.up * (Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime);
-        // }
-        // else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
-        // {
-        //     rb.velocity += Vector2.up * (Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime);
-        // }
+        if (rb.velocity.y < 0)
+        {
+            rb.velocity += Vector2.up * (Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime);
+        }
+        else if (rb.velocity.y > 0 && !Input.GetButton("Jump"))
+        {
+            rb.velocity += Vector2.up * (Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime);
+        }
         
     }
 
     void OnCollisionEnter(Collision col)
     {
+        // this what written to trigger the fall animation, but  never worked, should be deleted or fixed
         Debug.Log(col);
 
-        if (col.gameObject.tag.Equals("Platform"))
+        if (col.gameObject.CompareTag("Platform"))
         {    
             Vector3 hit = col.contacts[0].normal;
             Debug.Log(hit);
