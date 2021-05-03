@@ -19,27 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97223cbb-8520-4d2e-9859-b6883a4f442d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Character Animator.controller" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Character Animator.controller.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle Character.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Idle Character.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Jump Character.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Jump Character.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Jump Pink.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Jump Pink.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Pink Panther.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Pink Panther.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Run Character.anim" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Run Character.anim.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Walking.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Walking.anim" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boundaries.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boundaries.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/WalkingScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/WalkingScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
-    </list>
+    <list default="true" id="97223cbb-8520-4d2e-9859-b6883a4f442d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -115,7 +95,7 @@
       <updated>1618607886879</updated>
       <workItem from="1618607904568" duration="786000" />
       <workItem from="1618608761208" duration="37575000" />
-      <workItem from="1619903932126" duration="3041000" />
+      <workItem from="1619903932126" duration="3049000" />
     </task>
     <servers />
   </component>

@@ -1,37 +1,49 @@
 fileFormatVersion: 2
-guid: 9f2cf45debdac2f42ac8c796ce01187e
+guid: 9fc646dd894335d418a6432539781871
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6991849013916550155
-    second: Death_0
+      213: 1353232599459481280
+    second: dino_drop_rock_0
   - first:
-      213: -276728812324164698
-    second: Death_1
+      213: -3901460060714849349
+    second: dino_drop_rock_1
   - first:
-      213: 3156895337291164288
-    second: Death_2
+      213: 5684429039241246324
+    second: dino_drop_rock_2
   - first:
-      213: 1400002288684528572
-    second: Death_3
+      213: 5296546226293911342
+    second: dino_drop_rock_3
   - first:
-      213: -1891625820773287384
-    second: Death_4
+      213: 393815712722374645
+    second: dino_drop_rock_4
   - first:
-      213: -5789737788129074030
-    second: Death_5
+      213: 4717170782012689063
+    second: dino_drop_rock_5
   - first:
-      213: 3968659893341466949
-    second: Death_6
+      213: -5143114893010723806
+    second: dino_drop_rock_6
   - first:
-      213: 6495761399759928590
-    second: Death_7
+      213: -5010298133165426627
+    second: dino_drop_rock_7
   - first:
-      213: 4800267807231483719
-    second: Death_8
+      213: 4216375067113912092
+    second: dino_drop_rock_8
   - first:
-      213: -6126746645354384401
-    second: Death_9
+      213: -7021994356752241437
+    second: dino_drop_rock_9
+  - first:
+      213: -2752810637616538776
+    second: dino_drop_rock_10
+  - first:
+      213: 5335085007689182505
+    second: dino_drop_rock_11
+  - first:
+      213: 2483385756466035456
+    second: dino_drop_rock_12
+  - first:
+      213: -1034071459651361854
+    second: dino_drop_rock_13
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -61,7 +73,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: 0
+    filterMode: -1
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -75,7 +87,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 190
+  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -91,7 +103,7 @@ TextureImporter:
   platformSettings:
   - serializedVersion: 3
     buildTarget: DefaultTexturePlatform
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -103,7 +115,7 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Standalone
-    maxTextureSize: 2048
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -115,7 +127,19 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   - serializedVersion: 3
     buildTarget: Android
-    maxTextureSize: 2048
+    maxTextureSize: 8192
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 8192
     resizeAlgorithm: 0
     textureFormat: -1
     textureCompression: 0
@@ -129,13 +153,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Death_0
+      name: dino_drop_rock_0
       rect:
         serializedVersion: 2
-        x: 76
-        y: 49
-        width: 65
-        height: 93
+        x: 2
+        y: 0
+        width: 445
+        height: 677
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -143,20 +167,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: b0449ad32a9080160800000000000000
-      internalID: 6991849013916550155
+      spriteID: 0c6c24521e5a7c210800000000000000
+      internalID: 1353232599459481280
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_1
+      name: dino_drop_rock_1
       rect:
         serializedVersion: 2
-        x: 118
-        y: 124
-        width: 5
-        height: 10
+        x: 452
+        y: 0
+        width: 444
+        height: 677
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -164,20 +188,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ab6d428c9cd82cf0800000000000000
-      internalID: -276728812324164698
+      spriteID: bbba7bfdeba3bd9c0800000000000000
+      internalID: -3901460060714849349
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_2
+      name: dino_drop_rock_2
       rect:
         serializedVersion: 2
-        x: 305
-        y: 49
-        width: 65
-        height: 96
+        x: 905
+        y: 0
+        width: 444
+        height: 677
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -185,20 +209,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 08aa354559b8fcb20800000000000000
-      internalID: 3156895337291164288
+      spriteID: 476b3e2081623ee40800000000000000
+      internalID: 5684429039241246324
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_3
+      name: dino_drop_rock_3
       rect:
         serializedVersion: 2
-        x: 336
-        y: 128
-        width: 12
-        height: 6
+        x: 1355
+        y: 0
+        width: 444
+        height: 677
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -206,20 +230,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: cb376cdf9aecd6310800000000000000
-      internalID: 1400002288684528572
+      spriteID: e2f2fa20bbc118940800000000000000
+      internalID: 5296546226293911342
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_4
+      name: dino_drop_rock_4
       rect:
         serializedVersion: 2
-        x: 534
-        y: 49
-        width: 84
-        height: 99
+        x: 1805
+        y: 0
+        width: 444
+        height: 677
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -227,20 +251,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 82af9d896589fb5e0800000000000000
-      internalID: -1891625820773287384
+      spriteID: 5ffc8cfdd4d177500800000000000000
+      internalID: 393815712722374645
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_5
+      name: dino_drop_rock_5
       rect:
         serializedVersion: 2
-        x: 763
-        y: 49
-        width: 102
-        height: 101
+        x: 2258
+        y: 0
+        width: 441
+        height: 677
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -248,20 +272,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 29429e33828b6afa0800000000000000
-      internalID: -5789737788129074030
+      spriteID: 7aac7b665d1c67140800000000000000
+      internalID: 4717170782012689063
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_6
+      name: dino_drop_rock_6
       rect:
         serializedVersion: 2
-        x: 360
-        y: 98
-        width: 18
-        height: 21
+        x: 2708
+        y: 0
+        width: 444
+        height: 677
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -269,20 +293,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 54135f86523831730800000000000000
-      internalID: 3968659893341466949
+      spriteID: 22c1313114cff98b0800000000000000
+      internalID: -5143114893010723806
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_7
+      name: dino_drop_rock_7
       rect:
         serializedVersion: 2
-        x: 1012
-        y: 49
-        width: 88
-        height: 52
+        x: 3159
+        y: 0
+        width: 445
+        height: 677
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -290,20 +314,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e0d726ab394952a50800000000000000
-      internalID: 6495761399759928590
+      spriteID: d383fd1c468d77ab0800000000000000
+      internalID: -5010298133165426627
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_8
+      name: dino_drop_rock_8
       rect:
         serializedVersion: 2
-        x: 1243
-        y: 49
-        width: 84
-        height: 51
+        x: 3609
+        y: 0
+        width: 444
+        height: 677
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -311,20 +335,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 74f96c4432afd9240800000000000000
-      internalID: 4800267807231483719
+      spriteID: c177323c8c2938a30800000000000000
+      internalID: 4216375067113912092
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Death_9
+      name: dino_drop_rock_9
       rect:
         serializedVersion: 2
-        x: 1474
-        y: 49
-        width: 88
-        height: 53
+        x: 4062
+        y: 0
+        width: 444
+        height: 677
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -332,8 +356,92 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: fe3f5de036c69faa0800000000000000
-      internalID: -6126746645354384401
+      spriteID: 3ec2cfe265ddc8e90800000000000000
+      internalID: -7021994356752241437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dino_drop_rock_10
+      rect:
+        serializedVersion: 2
+        x: 4512
+        y: 0
+        width: 444
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b13f26f4d0cc9d0800000000000000
+      internalID: -2752810637616538776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dino_drop_rock_11
+      rect:
+        serializedVersion: 2
+        x: 4962
+        y: 0
+        width: 444
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92d63d94c870a0a40800000000000000
+      internalID: 5335085007689182505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dino_drop_rock_12
+      rect:
+        serializedVersion: 2
+        x: 5415
+        y: 0
+        width: 441
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 00b3c6e1032c67220800000000000000
+      internalID: 2483385756466035456
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: dino_drop_rock_13
+      rect:
+        serializedVersion: 2
+        x: 5865
+        y: 0
+        width: 444
+        height: 677
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c36c177c7d36a1f0800000000000000
+      internalID: -1034071459651361854
       vertices: []
       indices: 
       edges: []
