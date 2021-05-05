@@ -20,24 +20,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97223cbb-8520-4d2e-9859-b6883a4f442d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platform.prefab" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Platform.prefab.meta" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/LivesScripts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Dino/Dino Animator.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Dino/Dino Animator.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Fall Pink.anim" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Fall Pink.anim" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Animations/Pink Panther.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Pink Panther.controller" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Platforms/oriental-persian-carpet-texture_40015-242.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Platforms/oriental-persian-carpet-texture_40015-242.png.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rock.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Boundaries.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Boundaries.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraBounds.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/CameraBounds.cs.meta" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RockSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RockSpawner.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -126,7 +112,7 @@
       <workItem from="1618608761208" duration="37575000" />
       <workItem from="1619903932126" duration="3788000" />
       <workItem from="1620083134142" duration="915000" />
-      <workItem from="1620161904610" duration="10953000" />
+      <workItem from="1620161904610" duration="15435000" />
     </task>
     <servers />
   </component>
@@ -152,6 +138,10 @@
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="2012" y="92" width="1736" height="856" key="VCS.FileHistoryDialog" timestamp="1620212476341">
+      <screen x="1920" y="0" width="1920" height="1040" />
+    </state>
+    <state x="2012" y="92" width="1736" height="856" key="VCS.FileHistoryDialog/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620212476341" />
     <state x="901" y="23" width="845" height="1021" key="dock-window-1" timestamp="1620173296730">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

@@ -953,6 +953,8 @@ MonoBehaviour:
   player: {fileID: 1740072357}
   rockPrefab: {fileID: 2504661028770073363, guid: 921c81e3db2a96140ab6c3a437229349,
     type: 3}
+  dinoAnimator: {fileID: 98121192}
+  dropAnimation: {fileID: 7400000, guid: c33a588b1c24e954d829e11e5da267e2, type: 2}
 --- !u!1001 &1098162847
 PrefabInstance:
   m_ObjectHideFlags: 0

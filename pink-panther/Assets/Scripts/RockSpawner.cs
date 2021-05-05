@@ -7,22 +7,36 @@ public class RockSpawner : MonoBehaviour
 {
     [SerializeField] private GameObject player;
     [SerializeField] private Transform rockPrefab;
-    [SerializeField] private float timeLeft = 2000.0f;
     private Vector3 spawnPosition;
+    [SerializeField] private Animator dinoAnimator;
+    [SerializeField] private AnimationClip dropAnimation;
     
     void Start()
     {
         spawnPosition = gameObject.transform.position;
-        Transform rock = Instantiate<Transform>(rockPrefab, spawnPosition, Quaternion.identity, gameObject.transform);
-       // Physics2D.IgnoreCollision(rock.GetComponent<Collider2D>(), player.GetComponent<Collider2D>());
+        StartCoroutine(StartCountdown());
+        // Physics2D.IgnoreCollision(rock.GetComponent<Collider2D>(), player.GetComponent<Collider2D>());
     }
     
     void Update()
     {
-        timeLeft -= Time.deltaTime;
-        if(timeLeft < 0)
+        
+    }
+    
+    private IEnumerator StartCountdown()
+    {
+        var spawnDuration = 10f;
+        while (true)
         {
-            //Transform rock = Instantiate<Transform>(rockPrefab, spawnPosition, Quaternion.identity, gameObject.transform);
+            dinoAnimator.SetTrigger("Drop");
+            yield return new WaitForSeconds(dropAnimation.length);
+            Debug.Log("Animation is over");
+            Transform rock = Instantiate<Transform>(rockPrefab, spawnPosition, Quaternion.identity, gameObject.transform);
+            if (spawnDuration > 4)
+            {
+                spawnDuration -= 0.5f;
+            }
+            yield return new WaitForSeconds(spawnDuration);
         }
     }
     
