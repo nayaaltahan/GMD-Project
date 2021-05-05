@@ -18,12 +18,7 @@ public class UiManager : MonoBehaviour
     {
         if(Input.GetKeyUp(KeyCode.Escape))
         {
-            if(!MenuGameObject.activeSelf)
-            {MenuGameObject.SetActive(true);}
-            else
-            {
-                MenuGameObject.SetActive(false);
-            }
+            MenuGameObject.SetActive(!MenuGameObject.activeSelf);
         }
     }
 

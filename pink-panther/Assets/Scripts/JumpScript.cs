@@ -24,21 +24,10 @@ public class JumpScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Jump") && rb.velocity.y == 0)
+        if (Input.GetButtonDown("Jump") && Mathf.Floor(rb.velocity.y) == 0)
         {
             mainCharacterAnimator.SetTrigger("Jump");
             rb.velocity = new Vector3(0, jumpVelocity, 0);
-        }
-
-        // temporary fix for the fall animation, I need to trigger it as soon as th eplayer almost reaches the platform, right before that, and for now all i can come up is this
-        if (rb.velocity.y < -10 && !mainCharacterAnimator.GetBool("Fall"))
-        {
-            mainCharacterAnimator.SetBool("Fall", true);
-        }
-        
-        if (rb.velocity.y == 0 && mainCharacterAnimator.GetBool("Fall"))
-        {
-            mainCharacterAnimator.SetBool("Fall", false);
         }
         
         if (rb.velocity.y < 0)
@@ -52,16 +41,19 @@ public class JumpScript : MonoBehaviour
         
     }
 
-    void OnCollisionEnter(Collision col)
+    void OnCollisionEnter2D(Collision2D col)
     {
-        // this what written to trigger the fall animation, but  never worked, should be deleted or fixed
-        Debug.Log(col);
-
         if (col.gameObject.CompareTag("Platform"))
-        {    
+        {
             Vector3 hit = col.contacts[0].normal;
-            Debug.Log(hit);
             float angle = Vector3.Angle(hit, Vector3.up);
+            Debug.Log(angle);
+            if (angle <= 30 && angle >= -30 )
+            {
+                //Down
+                Debug.Log("almost down");
+                mainCharacterAnimator.SetTrigger("Fall");
+            }
  
             if (Mathf.Approximately(angle, 0))
             {
