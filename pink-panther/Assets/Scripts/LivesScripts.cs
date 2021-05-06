@@ -1,20 +1,27 @@
 ﻿using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 
-public class LivesScripts : MonoBehaviour
+public class LivesScripts : MonoBehaviour, Observer
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private List<GameObject> hearts;
+    private int last;
+
+    private void Start()
     {
-        
+        last = hearts.Count - 1;
     }
 
-    // Update is called once per frame
-    void Update()
+    public void OnNotify()
     {
+        Destroy(hearts[last]);
+        hearts.RemoveAt(last--);
+        if (hearts.Count == 0)
+        {
+            Debug.Log("Game Over");
+        }
         
     }
-    
 }

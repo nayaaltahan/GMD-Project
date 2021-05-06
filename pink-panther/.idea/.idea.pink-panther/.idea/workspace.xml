@@ -20,10 +20,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97223cbb-8520-4d2e-9859-b6883a4f442d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Observer.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RockCollideScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Subject.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Subject.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Animations/Pink Panther.controller" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Animations/Pink Panther.controller" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rock.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/LivesScripts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LivesScripts.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/RockSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RockSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +46,9 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/WalkingScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Observer.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/526469D5-A48C-43EE-BD9A-F19F8745AFA1/10/c3862ec6/Object.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/RockCollideScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LivesScripts.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -46,16 +56,19 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/WalkingScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraBounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boundaries.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller2D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LivesScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/LivesScripts.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/WalkingScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RockSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Subject.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Observer.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RockCollideScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/LivesScripts.cs" />
       </list>
     </option>
   </component>
@@ -112,7 +125,7 @@
       <workItem from="1618608761208" duration="37575000" />
       <workItem from="1619903932126" duration="3788000" />
       <workItem from="1620083134142" duration="915000" />
-      <workItem from="1620161904610" duration="15435000" />
+      <workItem from="1620161904610" duration="26083000" />
     </task>
     <servers />
   </component>
@@ -156,13 +169,13 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="DotNet Breakpoints">
           <url>file://$PROJECT_DIR$/Assets/Scripts/JumpScript.cs</url>
-          <line>45</line>
+          <line>53</line>
           <properties documentPath="C:\Users\Bruger\Desktop\unity-projects\pink-panther\Assets\Scripts\JumpScript.cs" initialLine="59">
             <startOffsets>
-              <option value="1231" />
+              <option value="1475" />
             </startOffsets>
             <endOffsets>
-              <option value="1273" />
+              <option value="1517" />
             </endOffsets>
           </properties>
           <option name="timeStamp" value="3" />

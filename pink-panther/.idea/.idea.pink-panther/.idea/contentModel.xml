@@ -11,7 +11,10 @@
           <e p="CameraFollow.cs" t="Include" />
           <e p="JumpScript.cs" t="Include" />
           <e p="LivesScripts.cs" t="Include" />
+          <e p="Observer.cs" t="Include" />
+          <e p="RockCollideScript.cs" t="Include" />
           <e p="RockSpawner.cs" t="Include" />
+          <e p="Subject.cs" t="Include" />
           <e p="UiManager.cs" t="Include" />
           <e p="WalkingScript.cs" t="Include" />
         </e>

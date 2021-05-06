@@ -24,12 +24,6 @@ public class JumpScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetButtonDown("Jump") && Mathf.Floor(rb.velocity.y) == 0)
-        {
-            mainCharacterAnimator.SetTrigger("Jump");
-            rb.velocity = new Vector3(0, jumpVelocity, 0);
-        }
-        
         if (rb.velocity.y < 0)
         {
             rb.velocity += Vector2.up * (Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime);
@@ -39,6 +33,20 @@ public class JumpScript : MonoBehaviour
             rb.velocity += Vector2.up * (Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime);
         }
         
+    }
+
+    void OnCollisionStay2D(Collision2D col)
+    {
+        if (col.gameObject.CompareTag("Platform") &&  Input.GetButtonDown("Jump"))
+        {
+            Vector3 hit = col.contacts[0].normal;
+            float angle = Vector3.Angle(hit, Vector3.up);
+            if (angle <= 30 && angle >= -30)
+            {
+                mainCharacterAnimator.SetTrigger("Jump");
+                rb.velocity = new Vector3(0, jumpVelocity, 0);
+            }
+        }
     }
 
     void OnCollisionEnter2D(Collision2D col)
