@@ -7,6 +7,9 @@ using UnityEngine;
 public class LivesScripts : MonoBehaviour, Observer
 {
     [SerializeField] private List<GameObject> hearts;
+    [SerializeField] private Transform gameOverPanel;
+    [SerializeField] private Transform gameOverParent;
+
     private int last;
 
     private void Start()
@@ -20,7 +23,7 @@ public class LivesScripts : MonoBehaviour, Observer
         hearts.RemoveAt(last--);
         if (hearts.Count == 0)
         {
-            Debug.Log("Game Over");
+            Transform gameOver = Instantiate<Transform>(gameOverPanel, gameOverParent);
         }
         
     }

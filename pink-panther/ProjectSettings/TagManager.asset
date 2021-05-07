@@ -7,6 +7,8 @@ TagManager:
   - Platform
   - Menu
   - RockCollider
+  - Coin
+  - CoinManager
   layers:
   - Default
   - TransparentFX

@@ -20,17 +20,49 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="97223cbb-8520-4d2e-9859-b6883a4f442d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Observer.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/RockCollideScript.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Subject.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Subject.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/COIN.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/COIN/CoinAnimation.anim" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/COIN/CoinAnimation.anim.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/COIN/CoinAnimator.controller" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Animations/COIN/CoinAnimator.controller.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Coin.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Prefabs/Coin.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/CollectCoinsScript.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pause.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Pause.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/coins_spriteshet.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Spritesheets/coins_spriteshet.png.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI Materials/GameOverPanel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI Materials/GameOverPanel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI Materials/WinningPanel.prefab" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI Materials/WinningPanel.prefab.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI Materials/febr227.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/UI Materials/febr227.gif.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/5.data.unityweb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/5.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/5.wasm.code.unityweb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/5.wasm.framework.unityweb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Build/UnityLoader.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../README.md" beforeDir="false" afterPath="$PROJECT_DIR$/../README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateData/UnityProgress.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateData/favicon.ico" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateData/fullscreen.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateData/progressEmpty.Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateData/progressEmpty.Light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateData/progressFull.Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateData/progressFull.Light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateData/progressLogo.Dark.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateData/progressLogo.Light.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateData/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../TemplateData/webgl-logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../index.html" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Rock.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Rock.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Platform.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Platform.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/LivesScripts.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/LivesScripts.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RockSpawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RockSpawner.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/TagManager.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,8 +79,10 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/UiManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Observer.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/526469D5-A48C-43EE-BD9A-F19F8745AFA1/10/c3862ec6/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RockCollideScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollectCoinsScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LivesScripts.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -56,19 +90,22 @@
       <list>
         <option value="$PROJECT_DIR$/Assets/Scripts/CharacterScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraFollow.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CameraBounds.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Boundaries.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Controller2D.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Player.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LivesScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/WalkingScript.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RockSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Subject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Observer.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/RockCollideScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LivesScripts.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Pause.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CollectCoinsScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs" />
       </list>
     </option>
   </component>
@@ -125,7 +162,7 @@
       <workItem from="1618608761208" duration="37575000" />
       <workItem from="1619903932126" duration="3788000" />
       <workItem from="1620083134142" duration="915000" />
-      <workItem from="1620161904610" duration="26083000" />
+      <workItem from="1620161904610" duration="35724000" />
     </task>
     <servers />
   </component>

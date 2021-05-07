@@ -9,3 +9,4 @@ The game is still under development. But you can play it [here](https://nayaalta
 ## Tutorials and References
 1. [Camera Follow the player](https://youtu.be/7JjzhhC06xw)
 2. [Set Camera Boundaries](https://youtu.be/05VX2N9_2_4)
+3. [Pausing the scene](https://answers.unity.com/questions/1230216/a-proper-way-to-pause-a-game.html)
