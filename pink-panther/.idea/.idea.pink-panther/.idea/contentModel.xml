@@ -11,6 +11,7 @@
           <e p="CameraFollow.cs" t="Include" />
           <e p="CoinsManager.cs" t="Include" />
           <e p="CollectCoinsScript.cs" t="Include" />
+          <e p="GroundCheck.cs" t="Include" />
           <e p="JumpScript.cs" t="Include" />
           <e p="LivesScripts.cs" t="Include" />
           <e p="Observer.cs" t="Include" />

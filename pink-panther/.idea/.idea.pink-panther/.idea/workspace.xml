@@ -19,7 +19,16 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="97223cbb-8520-4d2e-9859-b6883a4f442d" name="Default Changelist" comment="" />
+    <list default="true" id="97223cbb-8520-4d2e-9859-b6883a4f442d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/The-Pink-Panther-Theme-Song.mp3" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Materials/The-Pink-Panther-Theme-Song.mp3.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/GroundCheck.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.pink-panther/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/RockCollideScript.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/RockCollideScript.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -37,6 +46,7 @@
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/526469D5-A48C-43EE-BD9A-F19F8745AFA1/10/c3862ec6/Object.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/RockCollideScript.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GroundCheck.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/CollectCoinsScript.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/LivesScripts.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
@@ -54,13 +64,14 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/RockSpawner.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Subject.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Observer.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/RockCollideScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/LivesScripts.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Pause.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/UiManager.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CollectCoinsScript.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/CoinsManager.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GroundCheck.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/JumpScript.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/RockCollideScript.cs" />
       </list>
     </option>
   </component>
@@ -118,6 +129,7 @@
       <workItem from="1619903932126" duration="3788000" />
       <workItem from="1620083134142" duration="915000" />
       <workItem from="1620161904610" duration="36319000" />
+      <workItem from="1620591305812" duration="5976000" />
     </task>
     <servers />
   </component>
@@ -155,24 +167,5 @@
       <screen x="1920" y="0" width="1920" height="1040" />
     </state>
     <state x="2536" y="240" key="run.anything.popup/0.0.1920.1040/1920.0.1920.1040@1920.0.1920.1040" timestamp="1620174378032" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/Assets/Scripts/JumpScript.cs</url>
-          <line>53</line>
-          <properties documentPath="C:\Users\Bruger\Desktop\unity-projects\pink-panther\Assets\Scripts\JumpScript.cs" initialLine="59">
-            <startOffsets>
-              <option value="1475" />
-            </startOffsets>
-            <endOffsets>
-              <option value="1517" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="3" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

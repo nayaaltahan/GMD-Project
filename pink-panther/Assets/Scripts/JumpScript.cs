@@ -15,15 +15,23 @@ public class JumpScript : MonoBehaviour
     
     [SerializeField] public Animator mainCharacterAnimator;
 
+    private GroundCheck groundCheck; 
+
     // Start is called before the first frame update
-    void Awake()
+    void Start()
     {
+        groundCheck = transform.Find("GroundCheck").GetComponent<GroundCheck>();
         rb = GetComponent<Rigidbody2D>();
     }
 
     // Update is called once per frame
     void Update()
     {
+        if (Input.GetButtonDown("Jump") && IsGrounded())
+        {
+            mainCharacterAnimator.SetTrigger("Jump");
+            rb.velocity = new Vector3(0, jumpVelocity, 0);
+        }
         if (rb.velocity.y < 0)
         {
             rb.velocity += Vector2.up * (Physics2D.gravity.y * (fallMultiplier - 1) * Time.deltaTime);
@@ -32,59 +40,17 @@ public class JumpScript : MonoBehaviour
         {
             rb.velocity += Vector2.up * (Physics2D.gravity.y * (lowJumpMultiplier - 1) * Time.deltaTime);
         }
-        
-    }
 
-    void OnCollisionStay2D(Collision2D col)
-    {
-        if (col.gameObject.CompareTag("Platform") &&  Input.GetButtonDown("Jump"))
+        if (groundCheck.fall)
         {
-            Vector3 hit = col.contacts[0].normal;
-            float angle = Vector3.Angle(hit, Vector3.up);
-            if (angle <= 30 && angle >= -30)
-            {
-                mainCharacterAnimator.SetTrigger("Jump");
-                rb.velocity = new Vector3(0, jumpVelocity, 0);
-            }
+            mainCharacterAnimator.SetTrigger("Fall");
+            groundCheck.fall = false;
         }
     }
-
-    void OnCollisionEnter2D(Collision2D col)
+    
+    
+    bool IsGrounded()
     {
-        if (col.gameObject.CompareTag("Platform"))
-        {
-            Vector3 hit = col.contacts[0].normal;
-            float angle = Vector3.Angle(hit, Vector3.up);
-            Debug.Log(angle);
-            if (angle <= 30 && angle >= -30 )
-            {
-                //Down
-                Debug.Log("almost down");
-                mainCharacterAnimator.SetTrigger("Fall");
-            }
- 
-            if (Mathf.Approximately(angle, 0))
-            {
-                //Down
-                Debug.Log("Down");
-            }
-            if(Mathf.Approximately(angle, 180))
-            {
-                //Up
-                Debug.Log("Up");
-            }
-            if(Mathf.Approximately(angle, 90)){
-                // Sides
-                Vector3 cross = Vector3.Cross(Vector3.forward, hit);
-                if (cross.y > 0)
-                { // left side of the player
-                    Debug.Log("Left");
-                }
-                else
-                { // right side of the player
-                    Debug.Log("Right");
-                }
-            }
-        }
+        return groundCheck.isGrounded;
     }
 }
