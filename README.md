@@ -3,8 +3,9 @@ In this repository, I have recreated the dinosaur level in the [Pink Panther: Pi
 
 All the assets (bitmaps and vector graphics) and animations, have been created from scratch for this game.
 
-## Playable WebGL Version
-The game is still under development. But you can play it [here](https://nayaaltahan.github.io/GMD-Project/)
+## [Playable WebGL Version](https://nayaaltahan.github.io/GMD-Project/)
+
+## [Youtube Demonstration](https://youtu.be/5JhMLe01Dsg)
 
 ## Tutorials and References
 1. [Camera Follow the player](https://youtu.be/7JjzhhC06xw)
